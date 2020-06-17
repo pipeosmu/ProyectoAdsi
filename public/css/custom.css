@@ -1,0 +1,368 @@
+.bg-custom {
+	background-color: #00796b;
+}
+
+.btn-custom {
+	background-color: #00796b;
+	color: #fff;
+}
+
+.btn-custom:hover {
+	background-color: #014f49;
+	color: #fff;
+	transform: scale(1.05);
+}
+
+.btn-custom-danger {
+	background-color: #E80B0B;
+	color: #fff;
+}
+
+.btn-custom-danger:hover {
+	background-color: #A60909;
+	color: #fff;
+	transform: scale(1.05);
+}
+
+.page-item.active .page-link {
+	border: 1px solid #014f49;
+	background-color: #00796b;
+	color: #fff;
+}
+
+.page-item .page-link{
+	color: #014f49;
+}
+
+.pagination {
+	align-items: center;
+	justify-content: center;
+}
+
+.dropdown-item:active,
+.dropdown-item:focus,
+.dropdown-item:hover{
+	background-color: #00796b;
+	color: #fff;
+}
+
+.card-title {
+	background-color: #00796b;
+	color: #fff;
+	padding: 5px;
+}
+
+.form-search{
+	height: calc(1.6em + 0.75rem + 2px);
+	padding: 0.375rem 0.75rem;
+	font-size: 0.9rem;
+	font-weight: 400;
+	line-height: 1.6;
+	color: #495057;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	border-radius: 0.25rem;
+}
+
+.color-container {
+	padding: 20px;
+	background-color: white;
+	border-radius: 10px;
+}
+
+.space-bottom {
+	margin-bottom: 10px;
+}
+
+.icon-menu {
+	font-size: 100px;
+	text-align: center;
+	color: #00796B;
+}
+
+.text-body {
+	text-align: center;
+}
+
+.card-animate:before {
+  content:"";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 0px;
+  height: 100%;
+  background: rgba(0,89,88,0.1);
+  transition: all 0.5s ease;
+}
+
+.card-animate:hover:before {
+  width: 100%;
+  cursor: pointer;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+
+
+
+.modal.left .modal-dialog {
+	position:fixed;
+	left: 0;
+	margin: auto;
+	width: 320px;
+	height: 100%;
+	-webkit-transform: translate3d(0%, 0, 0);
+	-ms-transform: translate3d(0%, 0, 0);
+	-o-transform: translate3d(0%, 0, 0);
+	transform: translate3d(0%, 0, 0);
+}
+
+.modal.left .modal-content {
+	height: 100%;
+	overflow-y: auto;
+}
+
+.modal.right .modal-body {
+	padding: 15px 15px 80px;
+}
+
+.modal.right.fade .modal-dialog {
+	left: -320px;
+	-webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
+	-moz-transition: opacity 0.3s linear, left 0.3s ease-out;
+	-o-transition: opacity 0.3s linear, left 0.3s ease-out;
+	transition: opacity 0.3s linear, left 0.3s ease-out;
+}
+
+.modal.right.fade.show .modal-dialog {
+	right: 0;
+}
+
+/* ----- MODAL STYLE ----- */
+.modal-content {
+	border-radius: 0;
+	border: none;
+}
+
+.modal-header {
+	border-bottom-color: #eeeeee;
+	background-color: #fafafa;
+}
+
+/* ----- v CAN BE DELETED v ----- */
+
+.demo {
+	padding-top: 60px;
+	padding-bottom: 110px;
+}
+
+.btn-demo {
+	margin: 15px;
+	padding: 10px 15px;
+	border-radius: 0;
+	font-size: 16px;
+	background-color: #ffffff;
+}
+
+.btn-demo:focus {
+	outline: 0;
+}
+
+.btn-menu {
+	position: fixed;
+    top: 250px;
+    left: -10px;
+    transform: rotate(90deg);
+}
+
+.img-menu {
+	border: 2px solid white;
+	margin: 30px auto;
+}
+
+.item-center {
+	text-align: center;
+}
+
+.item-name {
+	margin-top: -20px;
+    font-size: 20px;
+}
+
+.modal-menu {
+	width: 300px;
+	background-color: rgba(0,57,62);
+	overflow-y: hidden !important;
+}
+
+.item-color-text {
+	color: white;
+}
+
+.item-left {
+	margin-bottom: 10px;
+	margin-left: 50px;
+	font-size: 15px;
+	text-align: left;
+}
+
+.item-home {
+	margin-top: 30px;
+}
+
+.header-image {
+	height: 170px;
+	background-size: 100%;
+	background-repeat: no-repeat; ;
+	background-position: left bottom;
+	background-image: url(../imgs/image-header.png);
+	border:none;
+}
+
+.card-account {
+	margin-top: -24px;
+	border:none;
+}
+
+.photo-account {
+	position: relative;
+	left: 460px;
+	top: 60px;
+}
+
+.photo-size{
+	width: 130px;
+	height: 170px;
+}
+
+.body-account {
+	height: 410px;
+	background: url(../imgs/pattern.png);
+}
+
+
+.icon-camera {
+	color: white;
+	font-size: 20px;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 61px;
+	left: 85px;
+	padding: 5px 10px 5px 10px;
+}
+
+.icon-camera:hover {
+	cursor: pointer;
+	background-color: #005750; 
+}
+
+.form-account {
+	margin-top: 20px;
+}
+
+.h2-account {
+	display: inline-block;
+}
+
+.btn-edit {
+	display: inline-block;
+	position: absolute;
+	left: 1000px;
+}
+
+.btn-confirm {
+	display: none;
+	position: absolute;
+	left: 1000px;
+}
+
+.btn-cancel {
+	display: none;
+	position: absolute;
+	left: 910px;
+}
+
+
+/*Progressbar*/
+
+#progressbar {
+    margin-bottom: 30px;
+    margin-left: 60px;
+    overflow: hidden;
+    /*CSS counters to number the steps*/
+    counter-reset: step;
+}
+
+#progressbar li {
+    list-style-type: none;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 9px;
+    width: 33.33%;
+    float: left;
+    position: relative;
+    letter-spacing: 1px;
+}
+
+#progressbar li:before {
+    content: counter(step);
+    counter-increment: step;
+    width: 24px;
+    height: 24px;
+    line-height: 26px;
+    display: block;
+    font-size: 12px;
+    color: #333;
+    background: white;
+    border-radius: 25px;
+    margin: 0 auto 10px auto;
+}
+
+/*progressbar connectors*/
+#progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #00796b;
+    position: absolute;
+    left: -50%;
+    top: 9px;
+    z-index: -1; /*put it behind the numbers*/
+}
+
+#progressbar li:first-child:after {
+    /*connector not needed before the first step*/
+    content: none;
+}
+
+/*marking active/completed steps #00796b*/
+/*The number of the step and the connector before it = #00796b*/
+#progressbar li.active:before, #progressbar li.active:after {
+    background: #00796b;
+    color: white;
+}
+
+
+/* Not relevant to this form */
+.dme_link {
+    margin-top: 30px;
+    text-align: center;
+}
+.dme_link a {
+    background: #FFF;
+    font-weight: bold;
+    color: #014f49;
+    border: 0 none;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 5px 25px;
+    font-size: 12px;
+}
+
+.dme_link a:hover, .dme_link a:focus {
+    background: #C5C5F1;
+    text-decoration: none;
+}
